@@ -1,0 +1,14 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "forge:item/default-tool",
+  "textures": {
+    "head":  "tgs:item/tool/cutter/blade",
+    "handle": "tgs:item/tool/cutter/handle"
+  },
+  "parts": [
+  	{ "name": "handle", "index": 1 },
+    { "name": "head",  "index": 0 }
+    
+  ],
+  "overrides": []
+}

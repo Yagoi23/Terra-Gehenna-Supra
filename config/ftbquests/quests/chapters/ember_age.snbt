@@ -1,0 +1,316 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ember_age"
+	group: ""
+	id: "2066194B783C0801"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "43DA167BDFFE9B1D"
+			tasks: [{
+				id: "397A173A87FC1CED"
+				item: "embers:mechanical_core"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "57B3F6747C1AB362"
+			tasks: [{
+				id: "20F550BBD5B67380"
+				item: "embers:ember_bore"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "7CACD1EC79DF1BE7"
+			tasks: [{
+				id: "1A41B132BBB6C92A"
+				item: "embers:caminite_brick"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "342473C23FA60550"
+			tasks: [{
+				id: "7A489C80CF5ECAC0"
+				item: "embers:ember_crystal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "0F462720D3A73284"
+			tasks: [
+				{
+					id: "73DA9D7B1838DD02"
+					item: "embers:ember_activator"
+					type: "item"
+				}
+				{
+					id: "600E3B794D1AF427"
+					item: "embers:ember_receiver"
+					type: "item"
+				}
+				{
+					id: "51E5C2C85946AE36"
+					item: "embers:ember_emitter"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			id: "289B0AB18E3828D3"
+			tasks: [{
+				id: "58A29F93D4E7502C"
+				item: "gtceu:caminite_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "5768D9C849B5B64F"
+			tasks: [{
+				id: "60B27EB8D08C7A37"
+				item: "embers:caminite_plate"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "48AF719E3B51DD87"
+			tasks: [{
+				id: "216832C6FF791A32"
+				item: "embers:melter"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "31A3AE3322D470EC"
+			tasks: [
+				{
+					id: "67FB12B9DBB09CC4"
+					item: "embers:stamper"
+					type: "item"
+				}
+				{
+					id: "262E8396E3EC4451"
+					item: "embers:stamp_base"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "7212F7EC0CF4CA3C"
+			tasks: [{
+				id: "5C7F2249286F4C2F"
+				item: "embers:mixer_centrifuge"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			id: "3A3EFFED0DDC2969"
+			tasks: [
+				{
+					id: "72D09E9DE77836BC"
+					item: "embers:alchemy_pedestal"
+					type: "item"
+				}
+				{
+					id: "13DDC18046E2A11D"
+					item: "embers:beam_cannon"
+					type: "item"
+				}
+				{
+					id: "0B44A63F36748C45"
+					item: "embers:alchemy_tablet"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["48AF719E3B51DD87"]
+			id: "3177E03E09256FC0"
+			tasks: [{
+				id: "65705131F64A5F93"
+				item: "embers:geologic_separator"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "5B5CCBF060D046D1"
+			tasks: [
+				{
+					count: 4L
+					id: "21B08FB60CC94D15"
+					item: { Count: 4, id: "aetherworks:moonlight_amplifier" }
+					type: "item"
+				}
+				{
+					id: "503A4469D529D274"
+					item: "aetherworks:prism"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			id: "5A827948F4C81355"
+			tasks: [{
+				id: "0A415BEEFD4CD17D"
+				item: "elementalcraft:pureinfuser"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "44731B1F3C22CB9C"
+			tasks: [
+				{
+					id: "5B073B4B2408F892"
+					item: "gtceu:drenched_iron_ingot"
+					type: "item"
+				}
+				{
+					id: "15826E33CD8D86E1"
+					item: "gtceu:aerial_iron_ingot"
+					type: "item"
+				}
+				{
+					id: "07F34C592C5AB810"
+					item: "gtceu:earthen_iron_ingot"
+					type: "item"
+				}
+				{
+					id: "72806110CD13E9BD"
+					item: "gtceu:blazing_iron_ingot"
+					type: "item"
+				}
+			]
+			title: "Elemental Iron"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			id: "6B273B53CF124579"
+			tasks: [
+				{
+					id: "576EB5F7AE8893A9"
+					item: "gtceu:springaline_gem"
+					type: "item"
+				}
+				{
+					id: "178ECF39CF46116F"
+					item: "gtceu:aeraline_gem"
+					type: "item"
+				}
+				{
+					id: "176B18C2DFF53D23"
+					item: "gtceu:terraline_gem"
+					type: "item"
+				}
+				{
+					id: "3B8CE6FA8696C39F"
+					item: "gtceu:pyroline_gem"
+					type: "item"
+				}
+			]
+			title: "Elemental Crystals"
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			id: "2F27A1060312CF5A"
+			tasks: [{
+				id: "4D05EE6006581E19"
+				item: "elementalcraft:binder"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			id: "7FF38F8387D4D7E9"
+			tasks: [{
+				id: "5A8912F8EC05F897"
+				item: "kubejs:iron_of_the_elements_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			id: "676D4B248AA86A8E"
+			tasks: [{
+				id: "4D5D2FC9DFF99A1A"
+				item: "kubejs:elemental_silk"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			id: "4DF9ED67ED4936B3"
+			tasks: [
+				{
+					id: "1DACD065E792EBEF"
+					item: "elementalcraft:air_silk"
+					type: "item"
+				}
+				{
+					id: "10EECDC9C22F795B"
+					item: "kubejs:water_silk"
+					type: "item"
+				}
+				{
+					id: "6C3BD704562AD3F3"
+					item: "kubejs:fire_silk"
+					type: "item"
+				}
+				{
+					id: "2F54E0626301F683"
+					item: "kubejs:earth_silk"
+					type: "item"
+				}
+			]
+			title: "Elemental Silk"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "4CDDF60F67C9A96A"
+			tasks: [{
+				id: "3ABAF969206A4C65"
+				item: "elementalcraft:infuser"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+	]
+	title: "Ember Age"
+}

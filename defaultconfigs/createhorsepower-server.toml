@@ -1,0 +1,34 @@
+
+#General Settings
+[general]
+	#Base rpm creatures can spin the horse crank.
+	#Range: > 1
+	creatureRPMRange = 16
+	#How much stress small creatures can produce for the horse crank.
+	#Range: > 1
+	smallCreatureStressRange = 128
+	#How much stress medium creatures can produce for the horse crank.
+	#Range: > 1
+	mediumCreatureStressRange = 256
+	#How much stress large creatures can produce for the horse crank.
+	#Range: > 1
+	largeCreatureStressRange = 512
+
+#Path Category
+[paths]
+	#Types of blocks valid as "Poor" quality,
+	poor_path_block = ["minecraft:dirt", "minecraft:grass_block"]
+	#Types of blocks valid as "Normal" quality,
+	normal_path_block = ["minecraft:dirt_path", "minecraft:gravel"]
+	#Types of blocks valid as "Great" quality,
+	great_path_block = ["minecraft:ice", "minecraft:packed_ice", "minecraft:blue_ice"]
+
+#Creature Category
+[workers]
+	#Valid "Small" creatures
+	small_creatures = ["tfc:pig", "tfc:boar", "tfc:dog", "tfc:gazelle", "tfc:sheep", "tfc:goat", "tfc:wolf", "tfc:direwolf"]
+	#Valid "Medium" creatures
+	medium_creatures = ["tfc:cow", "tfc:wildebeest", "tfc:bongo", "tfc:deer", "tfc:alpaca", "tfc:tiger", "tfc:sabertooth", "tfc:lion", "tfc:panther", "tfc:cougar"]
+	#Valid "Large" creatures
+	large_creatures = ["tfc:horse", "tfc:mule", "tfc:donkey", "tfc:moose", "tfc:caribou", "tfc:musk_ox", "tfc:yak", "tfc:black_bear", "tfc:grizzly_bear", "tfc:polar_bear"]
+

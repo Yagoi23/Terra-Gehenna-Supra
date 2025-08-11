@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "kubejs:block/plant/belladonna_plant_stage4"
+  },
+  "render_type": "cutout"
+}

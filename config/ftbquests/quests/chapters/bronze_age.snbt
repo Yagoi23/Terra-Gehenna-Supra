@@ -1,0 +1,319 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bronze_age"
+	group: ""
+	id: "10707A36E8FD3705"
+	order_index: 1
+	quest_links: [
+		{
+			id: "5E1E2360D7202D89"
+			linked_quest: "0E3B665D5F145749"
+			shape: "octagon"
+			size: 2.0d
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			id: "15C67B8DFA2263F2"
+			linked_quest: "77556205BF945ED1"
+			shape: "gear"
+			size: 3.0d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			id: "53D11A66FD6A94C9"
+			linked_quest: "598099111931EE24"
+			x: 2.5d
+			y: 8.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["3D77A64330A74BC3"]
+			id: "11DECBAD6F374F3C"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "4B9581CB02BA143E"
+				item: "tfc:bloomery"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51C3A731F5A810EC"]
+			id: "3D77A64330A74BC3"
+			tasks: [{
+				id: "4F368A4175FF7748"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:double_black_bronze_plate"
+							}
+							{
+								Count: 1b
+								id: "gtceu:double_bronze_plate"
+							}
+							{
+								Count: 1b
+								id: "gtceu:double_bismuth_bronze_plate"
+							}
+						]
+					}
+				}
+				title: "Double Bronze Plate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0C7A926414B24649"]
+			id: "51C3A731F5A810EC"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "037FA446DB487AE4"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:bronze_anvils"
+					}
+				}
+				title: "Any #tfc:bronze_anvils"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0E3B665D5F145749"]
+			id: "0C7A926414B24649"
+			tasks: [{
+				id: "48F6E24088F8F8D5"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "kubejs:double_black_bronze_ingot"
+							}
+							{
+								Count: 1b
+								id: "kubejs:double_bismuth_bronze_ingot"
+							}
+							{
+								Count: 1b
+								id: "kubejs:double_bronze_ingot"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Bronze Double Ingots"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["11DECBAD6F374F3C"]
+			id: "44F7ABD8CE000175"
+			tasks: [
+				{
+					id: "162DC1820A105759"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:raw_iron_bloom"
+					}
+					type: "item"
+				}
+				{
+					id: "7C5F99D9B417E265"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:refined_iron_bloom"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "5B2231706EC09846"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "tconstruct:tinkers_anvil"
+					tag: { }
+				}
+				id: "7EADE695B8D35EF1"
+				item: {
+					Count: 1
+					id: "tconstruct:tinkers_anvil"
+					tag: {
+						texture: "embers:dawnstone_block"
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5B2231706EC09846"]
+			icon: {
+				Count: 1
+				id: "tconstruct:scythe"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"tconstruct:copper"
+						"tconstruct:wood"
+						"tconstruct:wood"
+						"tconstruct:wood"
+					]
+					tic_modifiers: [
+						{
+							level: 3
+							name: "tconstruct:cultivated"
+						}
+						{
+							level: 1
+							name: "tconstruct:tilling"
+						}
+						{
+							level: 1
+							name: "tconstruct:dwarven"
+						}
+						{
+							level: 1
+							name: "tconstruct:silky_aoe_shears"
+						}
+						{
+							level: 1
+							name: "tconstruct:harvest"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 2.5f
+						"tconstruct:mining_speed": 0.45f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 1.5f
+						"tconstruct:attack_speed": 0.7f
+						"tconstruct:durability": 525.0f
+						"tconstruct:harvest_tier": "minecraft:iron"
+						"tconstruct:mining_speed": 2.25f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+			id: "64BD4C7448589AF9"
+			tasks: [
+				{
+					id: "1AF4EB8D6900FC13"
+					item: {
+						Count: 1
+						id: "tconstruct:scythe"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:copper"
+								"tconstruct:wood"
+								"tconstruct:wood"
+								"tconstruct:wood"
+							]
+							tic_modifiers: [
+								{
+									level: 3
+									name: "tconstruct:cultivated"
+								}
+								{
+									level: 1
+									name: "tconstruct:tilling"
+								}
+								{
+									level: 1
+									name: "tconstruct:dwarven"
+								}
+								{
+									level: 1
+									name: "tconstruct:silky_aoe_shears"
+								}
+								{
+									level: 1
+									name: "tconstruct:harvest"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:durability": 2.5f
+								"tconstruct:mining_speed": 0.45f
+							}
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:attack_damage": 1.5f
+								"tconstruct:attack_speed": 0.7f
+								"tconstruct:durability": 525.0f
+								"tconstruct:harvest_tier": "minecraft:iron"
+								"tconstruct:mining_speed": 2.25f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								upgrades: 2
+							}
+						}
+					}
+					match_nbt: false
+					title: "Scythe"
+					type: "item"
+				}
+				{
+					id: "4A5FA835287A6483"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "malum:aspected_spirits"
+						}
+					}
+					title: "Any Spirit"
+					type: "item"
+				}
+			]
+			title: "Reaping Souls"
+			x: -4.0d
+			y: 8.0d
+		}
+	]
+	title: "Bronze Age"
+}
