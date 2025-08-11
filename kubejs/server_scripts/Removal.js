@@ -84,4 +84,8 @@ const Removal = (event) => {
 	event.remove({ input: 'minecraft:wheat' })
 	event.remove({ input: 'gtceu:wheat_dust' })
 	event.remove({ output: 'tconstruct:pattern'})
+	
+	event.remove({ output: 'tconstruct:seared_melter'})
+	event.remove({ output: 'tconstruct:seared_heater'})
+	event.remove({ output: 'tconstruct:seared_bricks'})
 }

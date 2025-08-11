@@ -97,7 +97,11 @@ let ItemRegistry = (/** @type {Registry.Item} */ event) => {
 	event.create('void_quartz')
 	event.create('dark_quartz')
 	event.create('black_quartz')
-	
+	event.create('grout_brick')
+	event.create('cattail_powder')
+	event.create('cattail_wax')
+	//event.create('taro_powder')
+	//event.create('taro_wax')
 	event.create('water_inductor')
 	event.create('air_inductor')
 	event.create('earth_inductor')

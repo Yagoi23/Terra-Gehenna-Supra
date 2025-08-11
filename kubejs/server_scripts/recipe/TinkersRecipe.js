@@ -37,11 +37,17 @@ const TinkersRecipe = (event) => {
 		E: '#gtceu:tools/crafting_hammers'
 	})
 	
-	event.shaped('tconstruct:seared_melter', ['AAA','ABA','CDC'],
+	event.shaped('tconstruct:seared_heater', ['AAA','ABA','CDC'],
 	{
 		A: 'tconstruct:seared_bricks',
 		B: 'ironfurnaces:copper_furnace',
 		C: 'tconstruct:seared_bricks',
 		D: 'gtceu:double_steel_plate'
+	})
+	event.shaped('kubejs:grout_brick', ['A','B'],
+	{
+		A: 'tconstruct:grout',
+		B: 'gtceu:brick_wooden_form'
+		
 	})
 }
