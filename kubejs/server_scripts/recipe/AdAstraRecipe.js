@@ -25,7 +25,7 @@ const AdAstraRecipe = (event) => {
 		.EUt(30720)
 	
 	event.recipes.gtceu.assembler('steel_engine')
-		.itemInputs('4x gtnn:heavy_plate_t1', 'gtnn:t1_chip', 'ad_astra:engine_frame', 'ad_astra:steel_tank', 'gtceu:hv_electric_motor', 'ad_astra:fan')
+		.itemInputs('4x gtnn:heavy_plate_t1', 'gtnn:t1_chip', 'ad_astra:engine_frame', 'ad_astra:steel_tank', 'gtceu:hv_electric_motor', 'gtceu:power_thruster', 'ad_astra:fan')
 		.itemOutputs('ad_astra:steel_engine')
 		.duration(1500)
 		.EUt(480)

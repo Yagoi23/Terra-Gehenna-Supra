@@ -36,16 +36,6 @@
 			y: -4.0d
 		}
 		{
-			id: "7BD40E0E2975A5D1"
-			tasks: [{
-				id: "14781A590EC91FE1"
-				item: "enchanted:clay_jar"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -4.0d
-		}
-		{
 			id: "3CA2910CA27D86DB"
 			size: 2.0d
 			tasks: [{
@@ -54,7 +44,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -7.5d
+			y: -8.0d
 		}
 		{
 			id: "32DE028B2D08595E"
@@ -68,6 +58,72 @@
 			}]
 			x: -8.0d
 			y: -2.0d
+		}
+		{
+			id: "134385E6CBA2AC13"
+			size: 2.0d
+			tasks: [{
+				id: "6C97630A13C76F82"
+				item: "enchanted:altar"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -11.0d
+		}
+		{
+			id: "2F43B42DA503E025"
+			size: 2.0d
+			tasks: [{
+				id: "28E566638863E852"
+				item: "mysticalagriculture:infusion_altar"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			id: "0B72B719FD7CA8A8"
+			size: 2.0d
+			tasks: [{
+				id: "3B8D0A67169E9602"
+				item: "bloodmagic:altar"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["71E6A86C34A2B6C6"]
+			id: "6A92DFC477C85F07"
+			tasks: [{
+				id: "193FA4ACBD3F02A9"
+				item: "enchanted:exhale_of_the_horned_one"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			id: "1042F152CC3A467F"
+			size: 2.0d
+			tasks: [{
+				id: "39EE16E9E045E36A"
+				item: "enchanted:distillery"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			id: "022CF8A34BA69FEB"
+			size: 2.0d
+			tasks: [{
+				id: "5165A47AF7ADE23B"
+				item: "enchanted:spinning_wheel"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -13.5d
 		}
 	]
 	title: "Magic of the Stone Age"

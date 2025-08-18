@@ -42,7 +42,7 @@ let IndustrialMetal = (/** @type {Registry.Material} */ event) => {
 	]
 	
 	
-	event.create('electrical_steel')
+	/*event.create('electrical_steel')
         .ingot()
 		.liquid()
         .components('1x silicon', '1x steel')
@@ -54,7 +54,7 @@ let IndustrialMetal = (/** @type {Registry.Material} */ event) => {
 		.liquid()
         .components('1x obsidian', '1x steel')
 		.color(0x414751).iconSet('dull')//595f69
-		.flags(GTMaterialFlags.GENERATE_PLATE)
+		.flags(GTMaterialFlags.GENERATE_PLATE)*/
 	
 	event.create('energetic_alloy')
         .ingot()
@@ -186,4 +186,15 @@ let IndustrialMetal = (/** @type {Registry.Material} */ event) => {
 		.formula('CH3[Si(CH3)2O]2Si(CH3)3')
 		.liquid()
         .color(0xedeb8a)*/
+	
+	event.create('amethyst_bronze')
+        .ingot()
+		.liquid()
+        .components('1x copper', '1x amethyst')
+		.color(0xfba6ff).iconSet('shiny')//595f69
+		.flags(GTMaterialFlags.GENERATE_PLATE)
+		
+	addFluid(GTMaterials.Amethyst, $FluidStorageKeys.LIQUID);
+	addFluid(GTMaterials.Emerald, $FluidStorageKeys.LIQUID);
+	addFluid(GTMaterials.EnderPearl, $FluidStorageKeys.LIQUID);
 }

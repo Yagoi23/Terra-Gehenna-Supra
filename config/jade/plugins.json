@@ -8,13 +8,13 @@
     "harvest_tool.show_unbreakable": false,
     "animal_owner": true,
     "harvest_tool.effective_tool": true,
-    "item_storage": true,
     "item_storage.normal_amount": 9,
+    "item_storage": true,
     "harvest_tool": true,
     "armor_stand": true,
     "fluid_storage.detailed": false,
-    "energy_storage": true,
     "entity_armor.max_for_render": 40,
+    "energy_storage": true,
     "breaking_progress": true,
     "tnt_stability": true,
     "item_storage.items_per_line": 9,
@@ -22,8 +22,8 @@
     "crop_progress": true,
     "command_block": true,
     "mob_growth": true,
-    "waxed": true,
     "harvest_tool.new_line": false,
+    "waxed": true,
     "entity_health.max_for_render": 40,
     "entity_health.show_fractions": false,
     "mob_spawner": true,
@@ -111,8 +111,8 @@
   },
   "ae2": {
     "part_icon": true,
-    "charger": true,
     "debug": true,
+    "charger": true,
     "part_tooltip": true,
     "grid_node_state": true,
     "pattern_provider": true,
@@ -124,9 +124,13 @@
   "modularrouters": {
     "router": true
   },
+  "mbd2": {
+    "recipe_logic_provider": true,
+    "multiblock_provider": true
+  },
   "extendedcrafting": {
-    "elite_auto_table": true,
     "ender_crafter": true,
+    "elite_auto_table": true,
     "basic_auto_table": true,
     "flux_crafter": true,
     "advanced_table": true,
@@ -166,8 +170,8 @@
     "loom": true,
     "bloom": true,
     "frog": true,
-    "sapling": true,
     "rabbit": true,
+    "sapling": true,
     "composter": true,
     "decaying": true,
     "wall_torch": true,
@@ -215,13 +219,13 @@
   "projecte": {
     "emc_provider": true
   },
+  "mysticalagradditions": {
+    "infused_farmland": true
+  },
   "shetiphiancore": {
     "hud.rgb16": true,
     "hud": true,
     "hud.redstone": true
-  },
-  "mysticalagradditions": {
-    "infused_farmland": true
   },
   "waystones": {
     "waystone": true

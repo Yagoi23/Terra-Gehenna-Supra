@@ -172,7 +172,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["1968EBA9D6B0F399"]
 			id: "11C63BDDCDDAF2C3"
 			tasks: [{
 				id: "0AA9232051860FBF"
@@ -260,7 +259,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["1968EBA9D6B0F399"]
 			id: "57D19F71380493AF"
 			tasks: [{
 				icon: {
@@ -471,18 +469,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["092304181E5C73E8"]
-			id: "1968EBA9D6B0F399"
-			tasks: [{
-				id: "1A10C2ADA7AD3D35"
-				item: "tconstruct:tinker_station"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1968EBA9D6B0F399"]
 			id: "2098772D1606FBC0"
 			tasks: [
 				{
@@ -772,6 +758,81 @@
 			}]
 			x: -1.5d
 			y: 7.5d
+		}
+		{
+			dependencies: ["3EC8171029DF827A"]
+			id: "345ACD5080DF6F71"
+			tasks: [{
+				id: "0246BFB1EBACEE27"
+				item: {
+					Count: 1
+					id: "tconstruct:dagger"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:rock"
+							"tconstruct:wood"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:stonebound"
+							}
+							{
+								level: 1
+								name: "tconstruct:cultivated"
+							}
+							{
+								level: 1
+								name: "tconstruct:offhand_attack"
+							}
+							{
+								level: 1
+								name: "tconstruct:padded"
+							}
+							{
+								level: 1
+								name: "tconstruct:silky_shears"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.65f
+							"tconstruct:durability": 0.75f
+							"tconstruct:mining_speed": 0.75f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 2.6f
+							"tconstruct:attack_speed": 2.0f
+							"tconstruct:block_amount": 10.0f
+							"tconstruct:durability": 97.5f
+							"tconstruct:harvest_tier": "minecraft:stone"
+							"tconstruct:mining_speed": 3.0f
+							"tconstruct:use_item_speed": 1.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							"tconstruct:duel_wielding": 1b
+							upgrades: 3
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			id: "5FB2AF3EFC1BCD2E"
+			tasks: [{
+				id: "258E2D90A3F98CEE"
+				item: "tconstruct:tinker_station"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
 		}
 	]
 	title: "Stone Age"
