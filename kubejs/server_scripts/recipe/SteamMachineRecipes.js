@@ -3,7 +3,7 @@ const SteamMachineRecipes = (event) => {
 	{
 		A: 'gtceu:double_iron_plate',
 		B: '#gtceu:tools/crafting_wrenches',  
-		C: 'minecraft:furnace'
+		C: 'ironfurnaces:copper_furnace'
 		
 	})
 	event.shaped('ironfurnaces:copper_furnace', ['AAA','ABA','ACA'],
@@ -17,14 +17,14 @@ const SteamMachineRecipes = (event) => {
 	{
 		A: 'gtceu:double_silver_plate',
 		B: '#gtceu:tools/crafting_wrenches',  
-		C: 'minecraft:furnace'
+		C: 'ironfurnaces:iron_furnace'
 		
 	})
 	event.shaped('ironfurnaces:gold_furnace', ['AAA','ABA','ACA'],
 	{
 		A: 'gtceu:double_gold_plate',
 		B: '#gtceu:tools/crafting_wrenches',  
-		C: 'minecraft:furnace'
+		C: 'ironfurnaces:silver_furnace'
 		
 	})
 	

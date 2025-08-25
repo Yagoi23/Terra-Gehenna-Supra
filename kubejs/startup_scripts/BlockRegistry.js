@@ -49,4 +49,22 @@ let BlockRegistry = (/** @type {Registry.Item} */ event) => {
 		.defaultCutout()
 		.textureAll("kubejs:block/fluix_engraved_sky_stone_case")
 		.hardness(3.0)
+		
+	event.create('algae_farm_casing')
+		.textureAll("kubejs:block/algae_casing")
+		.soundType('copper')
+		.hardness(5)
+		.resistance(6)
+		.tagBlock('minecraft:mineable/pickaxe')
+		.tagBlock('minecraft:mineable/wrench')
+		.mapColor('color_light_gray')
+	
+	event.create('corrosion_proof_algae_farm_casing')
+		.textureAll("kubejs:block/corrosion_proof_algae_casing")
+		.soundType('copper')
+		.hardness(5)
+		.resistance(6)
+		.tagBlock('minecraft:mineable/pickaxe')
+		.tagBlock('minecraft:mineable/wrench')
+		.mapColor('color_light_gray')
 }

@@ -24,5 +24,6 @@ const RecipeMain = (event) => {
 	EnchantedRecipe(event)
 	EssenceProcessing(event)
 	MalumRecipe(event)
-	TinkersRecipe(event)
+	GlassRecipe(event)
+	AlgaeRecipe(event)
 }

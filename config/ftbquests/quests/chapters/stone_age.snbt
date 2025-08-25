@@ -35,46 +35,17 @@
 				id: "67B9CF45BD52F05C"
 				item: {
 					Count: 1
-					id: "tgs:saw"
+					id: "gtceu:copper_saw"
 					tag: {
-						Damage: 0
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 1b
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							HarvestIce: 1b
 						}
-						tic_broken: 0b
-						tic_materials: [
-							"tconstruct:copper"
-							"tconstruct:wood"
-						]
-						tic_modifiers: [
-							{
-								level: 1
-								name: "tconstruct:cultivated"
-							}
-							{
-								level: 1
-								name: "tconstruct:dwarven"
-							}
-						]
-						tic_multipliers: {
-							"tconstruct:attack_damage": 1.25f
-							"tconstruct:durability": 2.25f
+						GT.Tool: {
+							Damage: 0
+							MaxDamage: 131
 						}
-						tic_persistent: { }
-						tic_stats: {
-							"tconstruct:attack_damage": 6.875f
-							"tconstruct:attack_speed": 0.8f
-							"tconstruct:durability": 472.5f
-							"tconstruct:harvest_tier": "minecraft:iron"
-							"tconstruct:mining_speed": 5.0f
-						}
-						tic_volatile_data: {
-							abilities: 1
-							upgrades: 2
-						}
+						HideFlags: 2
 					}
 				}
 				match_nbt: false
@@ -153,7 +124,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["45E32B124CE9061D"]
 			id: "1E6DFDA3DC663B37"
 			tasks: [{
 				icon: "tfc:wood/log/oak"
@@ -172,57 +142,38 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["02901CA29CF7D7B8"]
 			id: "11C63BDDCDDAF2C3"
 			tasks: [{
 				id: "0AA9232051860FBF"
 				item: {
 					Count: 1
-					id: "tconstruct:pickaxe"
+					id: "gtceu:copper_pickaxe"
 					tag: {
-						Damage: 0
-						tic_broken: 0b
-						tic_materials: [
-							"tconstruct:copper"
-							"tconstruct:wood"
-							"tconstruct:copper"
-						]
-						tic_modifiers: [
-							{
-								level: 1
-								name: "tconstruct:cultivated"
-							}
-							{
-								level: 1
-								name: "tconstruct:pierce"
-							}
-							{
-								level: 2
-								name: "tconstruct:dwarven"
-							}
-						]
-						tic_persistent: { }
-						tic_stats: {
-							"tconstruct:attack_damage": 1.5f
-							"tconstruct:attack_speed": 1.2f
-							"tconstruct:durability": 210.0f
-							"tconstruct:harvest_tier": "minecraft:iron"
-							"tconstruct:mining_speed": 5.0f
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							TorchPlacing: 1b
 						}
-						tic_volatile_data: {
-							abilities: 1
-							upgrades: 3
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 2
+							MaxDamage: 131
+							ToolSpeed: 6.0f
 						}
+						HideFlags: 2
 					}
 				}
 				match_nbt: false
-				title: "Pickaxe"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.5d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["0197E5A197DABEC4"]
+			dependencies: [
+				"0197E5A197DABEC4"
+				"092304181E5C73E8"
+			]
 			id: "0E3B665D5F145749"
 			shape: "gear"
 			size: 3.0d
@@ -240,7 +191,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -255,108 +206,38 @@
 				to_observe: "tfc:rock_anvils"
 				type: "observation"
 			}]
-			x: 4.5d
-			y: 0.0d
+			x: 3.0d
+			y: 4.5d
 		}
 		{
+			dependencies: ["02901CA29CF7D7B8"]
 			id: "57D19F71380493AF"
 			tasks: [{
-				icon: {
-					Count: 1
-					id: "tgs:hammer"
-					tag: {
-						Damage: 0
-						tic_broken: 0b
-						tic_materials: [
-							"tconstruct:copper"
-							"tconstruct:wood"
-						]
-						tic_modifiers: [
-							{
-								level: 1
-								name: "tconstruct:cultivated"
-							}
-							{
-								level: 1
-								name: "tconstruct:smite"
-							}
-							{
-								level: 1
-								name: "tconstruct:dwarven"
-							}
-						]
-						tic_multipliers: {
-							"tconstruct:attack_damage": 1.25f
-							"tconstruct:durability": 2.25f
-						}
-						tic_persistent: { }
-						tic_stats: {
-							"tconstruct:attack_damage": 6.875f
-							"tconstruct:attack_speed": 0.8f
-							"tconstruct:durability": 472.5f
-							"tconstruct:harvest_tier": "minecraft:iron"
-							"tconstruct:mining_speed": 5.0f
-						}
-						tic_volatile_data: {
-							abilities: 1
-							upgrades: 2
-						}
-					}
-				}
 				id: "6F55F790D109779E"
 				item: {
 					Count: 1
-					id: "tgs:hammer"
+					id: "gtceu:copper_hammer"
 					tag: {
-						Damage: 0
-						tic_broken: 0b
-						tic_materials: [
-							"gm_construct:blue_steel"
-							"tconstruct:wood"
-						]
-						tic_modifiers: [
-							{
-								level: 1
-								name: "tconstruct:reinforced"
-							}
-							{
-								level: 1
-								name: "tconstruct:cultivated"
-							}
-							{
-								level: 1
-								name: "tconstruct:smite"
-							}
-						]
-						tic_multipliers: {
-							"tconstruct:attack_damage": 1.25f
-							"tconstruct:durability": 2.25f
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 2
+							MaxDamage: 131
+							ToolSpeed: 6.0f
 						}
-						tic_persistent: { }
-						tic_stats: {
-							"tconstruct:attack_damage": 13.75f
-							"tconstruct:attack_speed": 0.8f
-							"tconstruct:durability": 2304.0f
-							"tconstruct:harvest_tier": "minecraft:diamond"
-							"tconstruct:mining_speed": 15.0f
-						}
-						tic_volatile_data: {
-							abilities: 1
-							upgrades: 2
-						}
+						HideFlags: 2
 					}
 				}
 				match_nbt: false
-				title: "Hammer"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: 1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
 				"17A78B95FCE6A4A0"
-				"5CEB53C7D3FEE506"
 				"6855D3A9BD04BEB3"
 			]
 			id: "0197E5A197DABEC4"
@@ -365,32 +246,8 @@
 				item: "kubejs:double_copper_ingot"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"4F51C05E01573906"
-				"57D19F71380493AF"
-			]
-			dependency_requirement: "one_completed"
-			id: "5CEB53C7D3FEE506"
-			tasks: [{
-				id: "2225353FC8630BFA"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"tfc:item_heat": {
-							heat: 0.0f
-							ticks: 0L
-						}
-					}
-					id: "tfc:powder/flux"
-				}
-				type: "item"
-			}]
-			x: 4.5d
-			y: -1.5d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["11C63BDDCDDAF2C3"]
@@ -407,11 +264,14 @@
 				title: "Any #tfc:rock/raw"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -3.0d
+			x: -3.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["472459C479EF15DE"]
+			dependencies: [
+				"472459C479EF15DE"
+				"092304181E5C73E8"
+			]
 			id: "4F51C05E01573906"
 			tasks: [
 				{
@@ -431,8 +291,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -3.0d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
 			id: "0F26621288761FC6"
@@ -465,282 +325,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 3.0d
-		}
-		{
-			id: "2098772D1606FBC0"
-			tasks: [
-				{
-					id: "6EA4E042808C541A"
-					item: {
-						Count: 1
-						id: "tgs:screwdriver"
-						tag: {
-							Damage: 0
-							ISB_Spells: {
-								data: [ ]
-								maxSpells: 1
-								mustEquip: 0b
-								spellWheel: 1b
-							}
-							tic_broken: 0b
-							tic_materials: [
-								"tconstruct:copper"
-								"tconstruct:wood"
-							]
-							tic_modifiers: [
-								{
-									level: 1
-									name: "tconstruct:cultivated"
-								}
-								{
-									level: 1
-									name: "tconstruct:dwarven"
-								}
-							]
-							tic_multipliers: {
-								"tconstruct:attack_damage": 0.25f
-								"tconstruct:durability": 2.25f
-							}
-							tic_persistent: { }
-							tic_stats: {
-								"tconstruct:attack_damage": 1.375f
-								"tconstruct:attack_speed": 0.8f
-								"tconstruct:durability": 472.5f
-								"tconstruct:harvest_tier": "minecraft:iron"
-								"tconstruct:mining_speed": 5.0f
-							}
-							tic_volatile_data: {
-								abilities: 1
-								upgrades: 2
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "59A2625A0B2B45E3"
-					item: {
-						Count: 1
-						id: "tgs:cutter"
-						tag: {
-							Damage: 0
-							ISB_Spells: {
-								data: [ ]
-								maxSpells: 1
-								mustEquip: 0b
-								spellWheel: 1b
-							}
-							tic_broken: 0b
-							tic_materials: [
-								"tconstruct:copper"
-								"tconstruct:wood"
-							]
-							tic_modifiers: [
-								{
-									level: 1
-									name: "tconstruct:cultivated"
-								}
-								{
-									level: 1
-									name: "tconstruct:dwarven"
-								}
-							]
-							tic_multipliers: {
-								"tconstruct:attack_damage": 0.25f
-								"tconstruct:durability": 2.25f
-							}
-							tic_persistent: { }
-							tic_stats: {
-								"tconstruct:attack_damage": 1.375f
-								"tconstruct:attack_speed": 0.8f
-								"tconstruct:durability": 472.5f
-								"tconstruct:harvest_tier": "minecraft:iron"
-								"tconstruct:mining_speed": 5.0f
-							}
-							tic_volatile_data: {
-								abilities: 1
-								upgrades: 2
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "495030A62E0416A4"
-					item: {
-						Count: 1
-						id: "tgs:file"
-						tag: {
-							Damage: 0
-							tic_broken: 0b
-							tic_materials: [
-								"tconstruct:copper"
-								"tconstruct:wood"
-							]
-							tic_modifiers: [
-								{
-									level: 1
-									name: "tconstruct:cultivated"
-								}
-								{
-									level: 1
-									name: "tconstruct:dwarven"
-								}
-							]
-							tic_multipliers: {
-								"tconstruct:attack_damage": 0.25f
-								"tconstruct:durability": 2.25f
-							}
-							tic_persistent: { }
-							tic_stats: {
-								"tconstruct:attack_damage": 1.375f
-								"tconstruct:attack_speed": 0.8f
-								"tconstruct:durability": 472.5f
-								"tconstruct:harvest_tier": "minecraft:iron"
-								"tconstruct:mining_speed": 5.0f
-							}
-							tic_volatile_data: {
-								abilities: 1
-								upgrades: 2
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "57D726C70DEFDD0E"
-					item: {
-						Count: 1
-						id: "tgs:wrench"
-						tag: {
-							Damage: 0
-							tic_broken: 0b
-							tic_materials: [
-								"tconstruct:copper"
-								"tconstruct:copper"
-							]
-							tic_modifiers: [{
-								level: 2
-								name: "tconstruct:dwarven"
-							}]
-							tic_multipliers: {
-								"tconstruct:attack_damage": 0.25f
-								"tconstruct:durability": 2.25f
-							}
-							tic_persistent: { }
-							tic_stats: {
-								"tconstruct:attack_damage": 1.409375f
-								"tconstruct:attack_speed": 0.8f
-								"tconstruct:durability": 425.25f
-								"tconstruct:harvest_tier": "minecraft:iron"
-								"tconstruct:mining_speed": 5.25f
-							}
-							tic_volatile_data: {
-								abilities: 1
-								upgrades: 2
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4F450575AB88DBD9"
-					item: {
-						Count: 1
-						id: "tgs:mortar"
-						tag: {
-							Damage: 0
-							ISB_Spells: {
-								data: [ ]
-								maxSpells: 1
-								mustEquip: 0b
-								spellWheel: 1b
-							}
-							tic_broken: 0b
-							tic_materials: [
-								"tconstruct:copper"
-								"tconstruct:wood"
-							]
-							tic_modifiers: [
-								{
-									level: 1
-									name: "tconstruct:cultivated"
-								}
-								{
-									level: 1
-									name: "tconstruct:dwarven"
-								}
-							]
-							tic_multipliers: {
-								"tconstruct:durability": 2.25f
-							}
-							tic_persistent: { }
-							tic_stats: {
-								"tconstruct:durability": 1.8000001f
-								"tconstruct:mining_speed": 1.1f
-							}
-							tic_volatile_data: {
-								abilities: 1
-								upgrades: 2
-							}
-						}
-					}
-					type: "item"
-				}
-			]
 			x: 1.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["3EC8171029DF827A"]
-			id: "45E32B124CE9061D"
-			tasks: [{
-				id: "20F97CE4EDFFCA79"
-				item: {
-					Count: 1
-					id: "tconstruct:hand_axe"
-					tag: {
-						Damage: 0
-						tic_broken: 0b
-						tic_materials: [
-							"tconstruct:rock#stone"
-							"tconstruct:wood"
-							"tconstruct:rock#stone"
-						]
-						tic_modifiers: [
-							{
-								level: 2
-								name: "tconstruct:stonebound"
-							}
-							{
-								level: 1
-								name: "tconstruct:cultivated"
-							}
-							{
-								level: 1
-								name: "tconstruct:stripping"
-							}
-						]
-						tic_persistent: { }
-						tic_stats: {
-							"tconstruct:attack_damage": 7.0f
-							"tconstruct:attack_speed": 0.9f
-							"tconstruct:durability": 130.0f
-							"tconstruct:harvest_tier": "minecraft:stone"
-							"tconstruct:mining_speed": 4.0f
-						}
-						tic_volatile_data: {
-							abilities: 1
-							upgrades: 3
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: -1.5d
-			y: 6.0d
+			y: 3.0d
 		}
 		{
 			id: "3EC8171029DF827A"
@@ -757,82 +343,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["3EC8171029DF827A"]
-			id: "345ACD5080DF6F71"
-			tasks: [{
-				id: "0246BFB1EBACEE27"
-				item: {
-					Count: 1
-					id: "tconstruct:dagger"
-					tag: {
-						Damage: 0
-						tic_broken: 0b
-						tic_materials: [
-							"tconstruct:rock"
-							"tconstruct:wood"
-						]
-						tic_modifiers: [
-							{
-								level: 1
-								name: "tconstruct:stonebound"
-							}
-							{
-								level: 1
-								name: "tconstruct:cultivated"
-							}
-							{
-								level: 1
-								name: "tconstruct:offhand_attack"
-							}
-							{
-								level: 1
-								name: "tconstruct:padded"
-							}
-							{
-								level: 1
-								name: "tconstruct:silky_shears"
-							}
-						]
-						tic_multipliers: {
-							"tconstruct:attack_damage": 0.65f
-							"tconstruct:durability": 0.75f
-							"tconstruct:mining_speed": 0.75f
-						}
-						tic_persistent: { }
-						tic_stats: {
-							"tconstruct:attack_damage": 2.6f
-							"tconstruct:attack_speed": 2.0f
-							"tconstruct:block_amount": 10.0f
-							"tconstruct:durability": 97.5f
-							"tconstruct:harvest_tier": "minecraft:stone"
-							"tconstruct:mining_speed": 3.0f
-							"tconstruct:use_item_speed": 1.0f
-						}
-						tic_volatile_data: {
-							abilities: 1
-							"tconstruct:duel_wielding": 1b
-							upgrades: 3
-						}
-					}
-				}
-				match_nbt: false
-				type: "item"
-			}]
-			x: -3.0d
-			y: 7.5d
-		}
-		{
-			id: "5FB2AF3EFC1BCD2E"
-			tasks: [{
-				id: "258E2D90A3F98CEE"
-				item: "tconstruct:tinker_station"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 0.0d
+			y: 6.0d
 		}
 	]
 	title: "Stone Age"

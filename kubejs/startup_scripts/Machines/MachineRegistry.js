@@ -2,5 +2,6 @@ let MachineRegistry = (/** @type {Registry.Item} */ event) => {
 	//BacteriaMachine(event)
 	//CognitiumMachine(event)
 	//FoodMachine(event)
-	SteamMachine(event)
+	MalumMachine(event)
+	AlgaeMachine(event)
 }

@@ -193,6 +193,11 @@ let IndustrialMetal = (/** @type {Registry.Material} */ event) => {
         .components('1x copper', '1x amethyst')
 		.color(0xfba6ff).iconSet('shiny')//595f69
 		.flags(GTMaterialFlags.GENERATE_PLATE)
+	
+	event.create('lime')
+        .dust() 
+        .color(0xf2d891)
+		.components('calcium_hydroxide')
 		
 	addFluid(GTMaterials.Amethyst, $FluidStorageKeys.LIQUID);
 	addFluid(GTMaterials.Emerald, $FluidStorageKeys.LIQUID);

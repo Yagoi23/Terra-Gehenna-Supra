@@ -231,31 +231,6 @@ const craftingMatTags = (event) => {
   
   event.add('tfc:hammers', '#gtceu:tools/crafting_hammers')
   
-  event.add('tfc:hammers', 'tgs:hammer')
-  
-  event.add('gtceu:tools/crafting_hammers', 'tgs:hammer')
-  event.add('minecraft:tools', 'tgs:hammer')
-  event.add('forge:tools', 'tgs:hammer')
-  event.add('forge:tools/hammers', 'tgs:hammer')
-  
-  event.add('malum:soul_hunter_weapon', 'tconstruct:scythe')
-  event.add('malum:scythe', 'tconstruct:scythe')
-  event.add('malum:magic_capable_weapon', 'tconstruct:scythe')
-  
-  event.add('gtceu:tools/crafting_wire_cutters', 'tgs:cutter')
-  event.add('forge:tools/wire_cutters', 'tgs:cutter')
-  event.add('mae2:p2p_attunements/eu_p2p_tunnel', 'tgs:cutter')
-  
-  event.add('gtceu:tools/crafting_files', 'tgs:file')
-  event.add('forge:tools/files', 'tgs:file')
-  
-  event.add('gtceu:tools/crafting_screwdrivers', 'tgs:screwdriver')
-  event.add('forge:tools/screwdrivers', 'tgs:screwdriver')
-  
-  event.add('gtceu:tools/crafting_wrenches', 'tgs:wrench')
-  event.add('forge:tools/wrenches', 'tgs:wrench')
-  event.add('forge:tools/wrench', 'tgs:wrench')
-  
   event.add('minecraft:any_bronze_double_plate', 'gtceu:double_bronze_plate')
   event.add('minecraft:any_bronze_double_plate', 'gtceu:double_bismuth_bronze_plate')
   event.add('minecraft:any_bronze_double_plate', 'gtceu:double_black_bronze_plate')
@@ -263,4 +238,15 @@ const craftingMatTags = (event) => {
   event.add('minecraft:any_bronze_plate', 'gtceu:bronze_plate')
   event.add('minecraft:any_bronze_plate', 'gtceu:bismuth_bronze_plate')
   event.add('minecraft:any_bronze_plate', 'gtceu:black_bronze_plate')
+  
+  event.add('tgs:any_glass_work_lime_dust', 'gtceu:lime_dust')
+  event.add('tgs:any_glass_work_lime_dust', 'gtceu:quicklime_dust')
+  event.add('tgs:any_glass_work_lime_dust', 'gtceu:calcium_hydroxide_dust')
+  
+  event.add('tgs:any_glass_work_potash_dust', 'gtceu:potash_dust')
+  event.add('tgs:any_glass_work_potash_dust', 'gtceu:saltpeter_dust')
+  event.add('tgs:any_glass_work_potash_dust', 'gtceu:soda_ash_dust')
+  
+  event.add('tgs:any_glass_work_quartz_sand_dust', 'gtceu:quartzite_dust')
+  event.add('tgs:any_glass_work_quartz_sand_dust', 'gtceu:quartz_sand_dust')
 }

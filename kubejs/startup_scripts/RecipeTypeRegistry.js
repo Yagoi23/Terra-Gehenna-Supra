@@ -23,4 +23,22 @@ let RecipeTypeRegistry = (/** @type {Registry.Item} */ event) => {
 		.setMaxIOSize(2, 1, 0, 0)
 		.setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
 		.setSound(GTSoundEntries.FIRE)
+	
+	event.create('auto_void')
+        .setEUIO('in')
+        .setMaxIOSize(1, 1, 0, 0)
+        .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
+        .setSound(GTSoundEntries.BATH)
+	
+	event.create('green_algae_farm')
+        .setEUIO('in')
+        .setMaxIOSize(1, 1, 0, 0)
+        .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
+        .setSound(GTSoundEntries.BATH)
+	
+	event.create('red_algae_farm')
+        .setEUIO('in')
+        .setMaxIOSize(1, 1, 0, 0)
+        .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
+        .setSound(GTSoundEntries.BATH)
 }

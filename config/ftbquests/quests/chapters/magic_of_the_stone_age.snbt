@@ -4,7 +4,7 @@
 	filename: "magic_of_the_stone_age"
 	group: ""
 	id: "5BBCA093E543E887"
-	order_index: 6
+	order_index: 4
 	quest_links: [{
 		id: "1ED4FDF0E5360302"
 		linked_quest: "461278F42CEDDB01"
@@ -43,8 +43,8 @@
 				item: "rootsclassic:brazier"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -8.0d
+			x: -3.0d
+			y: -11.0d
 		}
 		{
 			id: "32DE028B2D08595E"
@@ -67,8 +67,8 @@
 				item: "enchanted:altar"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -11.0d
+			x: 0.0d
+			y: -8.0d
 		}
 		{
 			id: "2F43B42DA503E025"
@@ -78,8 +78,8 @@
 				item: "mysticalagriculture:infusion_altar"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -7.5d
+			x: 7.0d
+			y: -12.0d
 		}
 		{
 			id: "0B72B719FD7CA8A8"
@@ -89,8 +89,8 @@
 				item: "bloodmagic:altar"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -11.0d
+			x: 7.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["71E6A86C34A2B6C6"]
@@ -100,8 +100,8 @@
 				item: "enchanted:exhale_of_the_horned_one"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -6.0d
+			x: -2.0d
+			y: -4.0d
 		}
 		{
 			id: "1042F152CC3A467F"
@@ -122,8 +122,28 @@
 				item: "enchanted:spinning_wheel"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -13.5d
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			id: "22CEE1E0F0BD634D"
+			tasks: [{
+				id: "0E7DAAA795489310"
+				item: "hexerei:mixing_cauldron"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			id: "08A769F53033E034"
+			tasks: [{
+				id: "365A1718D435030B"
+				item: "enchanted:attuned_stone"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
 		}
 	]
 	title: "Magic of the Stone Age"

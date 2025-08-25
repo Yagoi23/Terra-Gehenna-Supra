@@ -18,7 +18,7 @@ const ArsRecipe = (event) => {
 		[]
     )
 	
-	event.recipes.ars_nouveau.enchanting_apparatus(
+	/*event.recipes.ars_nouveau.enchanting_apparatus(
         [
             'kubejs:void_quartz',
             'gtceu:hematite_dust',
@@ -33,5 +33,5 @@ const ArsRecipe = (event) => {
 	    'tinkers_things:hematite', // output
 	    1000, // source cost
 	    false // keep nbt of reagent, think like a smithing recipe
-	);
+	);*/
 }
